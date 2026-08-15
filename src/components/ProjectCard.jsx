@@ -13,7 +13,7 @@ export default function ProjectCard({ project, index }) {
     >
       {/* Image container */}
       <div className="relative overflow-hidden bg-[var(--panel)] border border-[var(--border)]">
-        <div className="aspect-[4/3] overflow-hidden">
+        <div className="overflow-hidden">
           <img
             src={project.image}
             alt={project.title}

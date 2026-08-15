@@ -1,5 +1,4 @@
 export const personal = {
-  logo: "FM.",
   name: "Faisal Malik",
   title: "Software Developer",
   email: "thefaisalmallik@gmail.com",
@@ -22,8 +21,29 @@ export const projects = [
     demo: "https://ferisha.vercel.app/",
     year: "2026",
   },
-  {
+    {
     id: 2,
+    title: "Adaptive Fused Grad-CAM",
+    description: "Undergraduate research project building a multi-layer Grad-CAM framework for improving explainability in retinal OCT classification. Includes a full-stack web interface for model interaction.",
+    categories: ["RESEARCH", "AI/ML"],
+    tags: ["TensorFlow", "ResNet50", "React", "Flask", "Grad-CAM"],
+    image: "/projects/AdaptiveFusedGrad-CAM.png",
+    link: "https://github.com/Faisalmalik01/adaptive-oct-explainability",
+   // demo : "https://github.com/Faisalmalik01/adaptive-oct-explainability",
+    year: "2026",
+  },
+    {
+    id: 3,
+    title: "Asra Salati - Graphic Designer Portfolio",
+    description: "Client portfolio website designed and developed for a graphic designer, from requirements gathering and UI development to responsive implementation and deployment.",
+    categories: ["FRONTEND", "CLIENT WORK"],
+    tags: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel"],
+    image: "/projects/AsraSalati.png",
+    demo: "https://aasra-salati.vercel.app/",
+    year: "2026",
+},
+  {
+    id: 4,
     title: "Recipe Assistant",
     description: "A global recipe discovery platform built with React featuring intelligent search, category filtering, favourites management, and seamless responsive navigation.",
     categories: ["FRONTEND"],
@@ -34,7 +54,7 @@ export const projects = [
     year: "2025",
   },
   {
-    id: 3,
+    id: 5,
     title: "AxisWardrobe",
     description: "A fashion eCommerce experience featuring JWT authentication, wishlist management, dynamic product browsing, and a polished Framer Motion-powered interface.",
     categories: ["FRONTEND"],
@@ -44,16 +64,9 @@ export const projects = [
     demo: "https://axis-wardrobe.vercel.app/",
     year: "2025",
   },
-  {
-    id: 4,
-    title: "Adaptive Fused Grad-CAM",
-    description: "Undergraduate research project building a multi-layer Grad-CAM framework for improving explainability in retinal OCT classification. Includes a full-stack web interface for model interaction.",
-    categories: ["RESEARCH", "AI/ML"],
-    tags: ["TensorFlow", "ResNet50", "React", "Flask", "Grad-CAM"],
-    image: "/projects/AdaptiveFusedGrad-CAM.png",
-    link: "https://github.com/Faisalmalik01/adaptive-oct-explainability",
-    year: "2026",
-  },
+
+
+
 ];
 
 export const filters = [
@@ -63,6 +76,7 @@ export const filters = [
   // { key: "DATA SCIENCE", label: "DATA SCIENCE" },
   { key: "AI/ML", label: "AI/ML" },
   { key: "RESEARCH", label: "RESEARCH" },
+  { key: "CLIENT WORK", label: "CLIENT WORK" },
 ];
 
 export const about = {
