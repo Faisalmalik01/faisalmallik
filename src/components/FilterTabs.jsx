@@ -11,7 +11,7 @@ export default function FilterTabs({ active, onChange }) {
             key={filter.key}
             onClick={() => onChange(filter.key)}
             className={`
-              relative px-5 py-1.5 rounded-full text-[10px] font-medium tracking-[0.08em] 
+              relative px-5 py-1 rounded-full text-[10px] font-medium tracking-[0.08em] 
               transition-colors duration-300 border
               ${isActive 
                 ? "text-[var(--canvas)] border-[var(--purple)]" 

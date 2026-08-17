@@ -42,20 +42,20 @@ export default function ProjectCard({ project, index }) {
               href={project.demo}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 sm:gap-2 px-4 sm:px-6 py-2 sm:py-3 rounded-full text-[10px] sm:text-[11px] font-semibold uppercase tracking-[0.12em] text-white border border-white/30 backdrop-blur-md transition-all duration-300 hover:bg-white/10 hover:border-white/60 hover:scale-105"
+              className="inline-flex items-center gap-1.5 sm:gap-2 px-2 sm:px-4 py-1 sm:py-2 rounded-full text-[8px] sm:text-[9px] font-semibold uppercase tracking-[0.12em] text-white border border-white/30 backdrop-blur-md transition-all duration-300 hover:bg-white/10 hover:border-white/60 hover:scale-105"
             >
               Live Demo
-              <ArrowUpRight size={12} className="sm:w-[13px] sm:h-[13px]" />
+              <ArrowUpRight size={8} className="sm:w-[13px] sm:h-[13px]" />
             </a>
           )}
           <a
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 sm:gap-2 px-4 sm:px-6 py-2 sm:py-3 rounded-full text-[10px] sm:text-[11px] font-semibold uppercase tracking-[0.12em] text-white border border-white/30 backdrop-blur-md transition-all duration-300 hover:bg-white/10 hover:border-white/60 hover:scale-105"
+            className="inline-flex items-center gap-1.5 sm:gap-2 px-2 sm:px-4 py-1 sm:py-2 rounded-full text-[8px] sm:text-[9px] font-semibold uppercase tracking-[0.12em] text-white border border-white/30 backdrop-blur-md transition-all duration-300 hover:bg-white/10 hover:border-white/60 hover:scale-105"
           >
             View Code
-            <ArrowUpRight size={12} className="sm:w-[13px] sm:h-[13px]" />
+            <ArrowUpRight size={8} className="sm:w-[13px] sm:h-[13px]" />
           </a>
         </div>
       </div>
@@ -69,12 +69,12 @@ export default function ProjectCard({ project, index }) {
           {project.title}
         </h3>
 
-        {/* Tags — now above description */}
+        {/* Tags —  above description */}
         <div className="mt-3 flex flex-wrap gap-2">
           {project.tags.map((tag) => (
             <span
               key={tag}
-              className="px-3 py-1.5 rounded-full text-[11px] font-medium border"
+              className="px-3 py-1 rounded-full text-[9px] font-medium border"
               style={{ borderColor: "var(--border)", color: "var(--ink-soft)" }}
             >
               {tag}
